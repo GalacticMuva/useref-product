@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import './App.css'
 
 
-const ProductLanding = () => {
+const LandingPage = () => {
 
     const nameRef = useRef();
     const emailRef = useRef();
@@ -78,4 +78,4 @@ const ProductLanding = () => {
 }
 
 
-export default ProductLanding
+export default LandingPage
