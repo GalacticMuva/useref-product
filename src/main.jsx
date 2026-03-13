@@ -7,6 +7,7 @@ import LandingPage from './LandingPage';
 import LoginPage from './LoginPage';
 import ProductCard from './ProductCard.jsx'
 import EduGrid from './EduGrid.jsx';
+import PGrid from './PGrid.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/login" element={<LoginPage />} />
         <Route path="/product" element={<ProductCard />} />
         <Route path="/grid" element={<EduGrid />} />
+        <Route path="/products" element={<PGrid />} />
       </Routes>
     </Router>
   </React.StrictMode>

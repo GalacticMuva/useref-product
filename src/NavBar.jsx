@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <nav className="w-full bg-slate-900 text-white p-4 shadow-md">
-            {/* Step 3: Flexbox alignment */}
+            {/* Alignment */}
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="text-xl font-bold">E-Store</div>
                 <Link to="/" className="hover:text-blue-400 transition-colors font-medium">Home</Link>
