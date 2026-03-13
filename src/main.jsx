@@ -8,6 +8,7 @@ import LoginPage from './LoginPage';
 import ProductCard from './ProductCard.jsx'
 import EduGrid from './EduGrid.jsx';
 import PGrid from './PGrid.jsx';
+import Checkout from './Checkout.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/product" element={<ProductCard />} />
         <Route path="/grid" element={<EduGrid />} />
         <Route path="/products" element={<PGrid />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </Router>
   </React.StrictMode>
